@@ -2,7 +2,7 @@ const fs = require('fs');
 
 const inquirer = require('inquirer');
 
-
+const generateMarkdown = require('./utils/generateMarkdown.js');
 
 
 // array of questions for user
@@ -107,3 +107,22 @@ function writeToFile(fileName, data) {
 		console.log('README.md created!');
 	});
 }
+
+// function to initialize program
+// call inquirer.prompt(questions)
+function init() {
+	inquirer
+		.prompt(questions)
+		.then((data) => {
+			return generateMarkdown(data);
+		})
+		.then((markdown) => {
+			writeToFile('README.md', markdown);
+		})
+		.catch((err) => {
+			console.log(err);
+		});
+}
+
+// function call to initialize program
+init();
