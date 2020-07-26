@@ -1,5 +1,5 @@
 
-# README Generator
+# Team Profile Generator
 
 ![MIT license badge](https://img.shields.io/badge/license-MIT-green)
 
@@ -7,7 +7,7 @@
 
 ## Description
 
-A command-line application that dynamically generates a professional README.md file from a user's input using the Inquirer package
+A Node.js command-line application that takes in information about employees on a software engineering team and generates an HTML webpage that displays summaries for each person.
 
 ## Table of Contents
   * [Installation](#installation)
@@ -18,10 +18,10 @@ A command-line application that dynamically generates a professional README.md f
   * [Questions](#questions)
   
 ## Installation
-Clone project to a directory on your local machine and cd into the readme-generator directory.  Run npm install to install inquirer package.  
+Clone project to a directory on your local machine and cd into the team-profile-generator directory.  Run npm install to install inquirer package. 
 
 ## Usage
-Run node index to launch application and answer all of the questions that are prompted in the terminal.  When all questions have been answered, your README.md file will appear in the root directory, where you can copy it to paste in your project's directory where needed.
+Run node Index to launch application and answer all of the questions that are prompted in the terminal.  When all questions have been answered, your index.html file will appear in the dist folder along with a custom stylesheet, where you can copy it to your project's directory where needed.
 
 ## License 
 This project is covered under the MIT license 
@@ -31,7 +31,7 @@ This project is covered under the MIT license
 To see the guidelines adopted for contributing to this project, please view the [Contributor Covenant](https://www.contributor-covenant.org/version/2/0/code_of_conduct/code_of_conduct.txt)
 
 ## Testing
-Tests coming soon
+run npm test Employee to run jest testing framework on the Employee class, or npm test to test all modules having tests.
 
 ## Questions
 Visit me at GitHub  

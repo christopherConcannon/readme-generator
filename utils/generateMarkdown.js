@@ -16,7 +16,10 @@ function generateMarkdown(data) {
 # ${title}
 
 ![${license} license badge](https://img.shields.io/badge/license-${license.replace(/ /g, '%20')}-green)
-
+<!---
+add screenshot to directory if desired
+![Project Name](./assets/images/screenshot.png)
+-->
 
 
 ## Description
