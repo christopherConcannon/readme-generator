@@ -1,13 +1,16 @@
 
-# README Generator
+# Note Taker
 
 ![MIT license badge](https://img.shields.io/badge/license-MIT-green)
-
+<!---
+add screenshot to directory if desired
+![Project Name](./assets/images/screenshot.png)
+-->
 
 
 ## Description
 
-A command-line application that dynamically generates a professional README.md file from a user's input using the Inquirer package
+A browser-based note taking application with data persistence
 
 ## Table of Contents
   * [Installation](#installation)
@@ -18,26 +21,20 @@ A command-line application that dynamically generates a professional README.md f
   * [Questions](#questions)
   
 ## Installation
-Clone project to a directory on your local machine and cd into the readme-generator directory.  Run npm install to install inquirer package. 
-
-<!---
-add screenshot to directory if desired
-![Project Name](./assets/images/screenshot.png)
--->
-
+Clone project into a local directory and cd into note-taker directory.  Run npm install, then once all packages have been installed, run npm start, and verify server start message in console.  Navigate to port 3001 of your localhost.  Add note title and body, then press disk icon to save note.  Click on any note title in the left sidebar to display the note's contents in the main display area. 
 
 ## Usage
-Run node index to launch application and answer all of the questions that are prompted in the terminal.  When all questions have been answered, your README.md file will appear in the root directory, where you can copy it to paste in your project's directory where needed.  [view demo](https://drive.google.com/file/d/1lVVrD0SujtMK3_Ij9csMUmdj55lM8Aoy/view)
+Add note title and body, then press disk icon to save note.  Click on any note title in the left sidebar to display the note's contents in the main display area. Click trash can icon to delete the currently loaded  note.
 
 ## License 
 This project is covered under the MIT license 
 
 
 ## Contributing
-To see the guidelines adopted for contributing to this project, please view the [Contributor Covenant](https://www.contributor-covenant.org/version/2/0/code_of_conduct/code_of_conduct.txt)
+
 
 ## Testing
-Tests coming soon
+None
 
 ## Questions
 Visit me at GitHub  
